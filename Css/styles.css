@@ -873,63 +873,6 @@ footer>p {
     font-size: 0.85rem;
 }
 
-/* جدول الطلاب المسجلين */
-.students-list {
-    background: var(--white);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    margin-top: 2rem;
-    box-shadow: var(--shadow-md);
-}
-
-.students-list h3 {
-    color: var(--primary);
-    margin-bottom: 1rem;
-}
-
-.students-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-}
-
-.students-table th,
-.students-table td {
-    padding: 0.75rem;
-    text-align: right;
-    border-bottom: 1px solid #e2e8f0;
-}
-
-[data-theme="dark"] .students-table th,
-[data-theme="dark"] .students-table td {
-    border-bottom-color: #334155;
-}
-
-.students-table th {
-    background: var(--light);
-    color: var(--primary);
-    font-weight: bold;
-}
-
-/* زر الحذف في جدول الطلاب */
-.delete-student-btn {
-    background: #ef4444;
-    color: white;
-    border: none;
-    padding: 0.3rem 0.8rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-size: 0.8rem;
-    transition: var(--transition);
-}
-
-.delete-student-btn:hover {
-    background: #dc2626;
-    transform: scale(1.05);
-}
-
-
-
 /* كود مخصص لصفحة المساعدة */
 .faq-container {
     max-width: 1000px;
@@ -1183,7 +1126,7 @@ footer>p {
 
 /* تنسيقات البانر الرئيسي */
 .hero-banner {
-    background-image: url(image1.jpeg);
+    background: linear-gradient(135deg, var(--primary-dark), var(--dark));
     border-radius: .5rem .5rem 2rem 2rem;
     min-height: 600px;
     overflow: hidden;
